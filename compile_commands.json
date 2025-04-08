@@ -1,0 +1,21 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-Wall",
+      "-Werror",
+      "-pedantic",
+      "-std=c99",
+      "-xc",
+      "-g",
+      "-DDEBUG",
+      "-c",
+      "-o",
+      "build/debug/main.o",
+      "src/main.c"
+    ],
+    "directory": "/workspaces/C-UI-Library",
+    "file": "/workspaces/C-UI-Library/src/main.c",
+    "output": "/workspaces/C-UI-Library/build/debug/main.o"
+  }
+]

@@ -1,0 +1,12 @@
+---
+BasedOnStyle:  LLVM
+AlignAfterOpenBracket: BlockIndent
+AlignArrayOfStructures: Right
+AlignEscapedNewlines: LeftWithLastLine
+IndentAccessModifiers: false
+IndentCaseBlocks: false
+IndentCaseLabels: true
+IndentWidth:     4
+InsertNewlineAtEOF: true
+UseTab:          Never
+AllowShortFunctionsOnASingleLine: Empty
