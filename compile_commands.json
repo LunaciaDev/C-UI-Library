@@ -11,11 +11,87 @@
       "-DDEBUG",
       "-c",
       "-o",
+      "build/debug/fontManager.o",
+      "src/fontManager.c"
+    ],
+    "directory": "/workspaces/C-UI-Library",
+    "file": "/workspaces/C-UI-Library/src/fontManager.c",
+    "output": "/workspaces/C-UI-Library/build/debug/fontManager.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-Wall",
+      "-Werror",
+      "-pedantic",
+      "-std=c99",
+      "-xc",
+      "-g",
+      "-DDEBUG",
+      "-c",
+      "-o",
+      "build/debug/imageManager.o",
+      "src/imageManager.c"
+    ],
+    "directory": "/workspaces/C-UI-Library",
+    "file": "/workspaces/C-UI-Library/src/imageManager.c",
+    "output": "/workspaces/C-UI-Library/build/debug/imageManager.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-Wall",
+      "-Werror",
+      "-pedantic",
+      "-std=c99",
+      "-xc",
+      "-g",
+      "-DDEBUG",
+      "-c",
+      "-o",
       "build/debug/main.o",
       "src/main.c"
     ],
     "directory": "/workspaces/C-UI-Library",
     "file": "/workspaces/C-UI-Library/src/main.c",
     "output": "/workspaces/C-UI-Library/build/debug/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-Wall",
+      "-Werror",
+      "-pedantic",
+      "-std=c99",
+      "-xc",
+      "-g",
+      "-DDEBUG",
+      "-c",
+      "-o",
+      "build/debug/mainScreen.o",
+      "src/mainScreen.c"
+    ],
+    "directory": "/workspaces/C-UI-Library",
+    "file": "/workspaces/C-UI-Library/src/mainScreen.c",
+    "output": "/workspaces/C-UI-Library/build/debug/mainScreen.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-Wall",
+      "-Werror",
+      "-pedantic",
+      "-std=c99",
+      "-xc",
+      "-g",
+      "-DDEBUG",
+      "-c",
+      "-o",
+      "build/debug/renderer.o",
+      "src/renderer.c"
+    ],
+    "directory": "/workspaces/C-UI-Library",
+    "file": "/workspaces/C-UI-Library/src/renderer.c",
+    "output": "/workspaces/C-UI-Library/build/debug/renderer.o"
   }
 ]
